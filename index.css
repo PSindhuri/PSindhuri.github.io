@@ -1,0 +1,131 @@
+body, html {
+
+  width:100%;
+  height:100%;
+    
+}
+
+
+.Projects{
+  height: 100%;
+  width: 100%;
+  background-color: light-blue;
+}
+.Background{
+  height: 100%;
+  width: 100%;
+  
+}
+.AboutMe{
+  height: 100%;
+  width: 100%;
+  background-color: white;
+}
+
+
+
+
+
+header.welcome {
+  height: 100%;
+    background-image: url("bubbles.jpg");
+
+   /* background: #00ffff;  /* For browsers that do not support gradients */
+    /*background: linear-gradient(to bottom , #66ccff, #99ff66); /* Standard*/
+
+
+
+
+
+    /* Full height */
+    width: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+    
+  
+  /* Preserve aspet ratio */
+  
+}
+
+.AboutMe2 {
+  font-size: 1.5rem; 
+  color:black;
+  font-family: 'Pacifico', cursive;
+}
+
+header.welcome h1 {
+  font-size: 2rem; 
+  color:#FFFFFF;
+  font-family: 'Pacifico', cursive;
+}
+
+
+div.thanks h1 {
+  font-size: 2rem; 
+  color:#FFFFFF;
+  font-family: 'Pacifico', cursive;
+}
+
+
+.btn {
+  font-weight: 700;
+  text-transform: uppercase;
+  border-radius: 300px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.btn-xl {
+  padding: 1rem 2rem; 
+}
+
+.btn-primary {
+  background-color: #F05F44;
+  border-color: #F05F44; }
+
+.btn-primary:hover {
+  background-color: #ee4b08;
+  border-color: #ee4b08;
+  border-width: 5px;
+  cursor: pointer;
+}
+  
+.col-md-4{
+
+    
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+
+
+.cursorSymbol {
+cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
