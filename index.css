@@ -5,7 +5,21 @@ body, html {
     
 }
 
-
+h2
+{
+  font-size: 3vw;
+}
+h4
+{
+  font-size: 1.5vw;
+}
+p
+{
+  font-size: 1vw;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  
+}
 .Projects{
   height: 100%;
   width: 100%;
@@ -53,13 +67,15 @@ header.welcome {
 }
 
 .AboutMe2 {
-  font-size: 1.5rem; 
+  font-size:2vw;
+  /*font-size: 1.5rem;*/ 
   color:black;
   font-family: 'Pacifico', cursive;
 }
 
 header.welcome h1 {
-  font-size: 2rem; 
+  /*font-size: 2rem; */
+  font-size:3vw;
   color:#FFFFFF;
   font-family: 'Pacifico', cursive;
 }
@@ -76,6 +92,7 @@ div.thanks h1 {
   font-weight: 700;
   text-transform: uppercase;
   border-radius: 300px;
+  font-size:2vw;
   font-family: 'Montserrat', sans-serif;
 }
 
@@ -110,22 +127,50 @@ cursor: pointer;
 
 
 
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+
+.responsive {
+
+    width: 40%;
+    height: 50%;
+    max-width: 200px;
+    max-height: 200px;
+}
+
+.p-responsive {
+
+    width: 40%;
+    height: 50%;
+    max-width: 100px;
+    max-height: 100px;
+}
 
 
 
 
+.row {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display:         flex;
+  flex-wrap: wrap;
+}
+.row > [class*='col-']:not(.col-lg-12) {
+  display: flex;
+  flex-direction: column;
+}
 
 
-
-
-
-
-
-
-
-
-
-
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 
 
