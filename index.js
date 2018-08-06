@@ -37,7 +37,7 @@ $(document).ready(function(){
 
 $(document).ready(function(){
     $("#full").on("click", function(){
-        window.open('https://github.com/PSindhuri/FullStackWeb','githubProjects');
+        window.open('https://github.com/PSindhuri/MEAN-Application/tree/master/DiscussionBoard_MEAN','githubProjects');
     });
 });
 
